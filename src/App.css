@@ -1,0 +1,45 @@
+body {
+	background: white;
+	color: #140808;
+	overflow-y: scroll;
+	
+}
+
+
+
+.card-outer {
+	background-color: white;
+	padding: 20px;
+}
+
+.navbar {
+	margin-bottom: 150px;
+	background-color: black !important;
+  }
+  
+  .form-control {
+	  display: flex;
+	  justify-content: flex-end;
+	  margin-right: 15px;
+  }
+
+ #navbarSupportedContent{
+    justify-content: space-between;
+ }
+
+  .card-outer img {
+	  width: 200px;
+	  height: 200px;
+	  padding: 20px 0;
+  }
+
+  .main-bg {
+	  width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -5;
+    min-height: 200px;
+    position: fixed;
+
+  }
